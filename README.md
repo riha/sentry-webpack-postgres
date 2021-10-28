@@ -1,5 +1,3 @@
-# sentry-webpack-postgres
-
 ## Dependencies
 
 - Running Postgres service

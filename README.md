@@ -12,7 +12,7 @@
 
 ## Run
 
-`yarn start``
+`yarn start`
 
 ## Issue 
 

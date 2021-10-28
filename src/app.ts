@@ -15,7 +15,6 @@ const pool = new Pool({
 
 Sentry.init({
   dsn: "",
-  release: "logging-test@" + process.env.SHA,
   integrations: [
     new Sentry.Integrations.Http({ tracing: true }),
     new Tracing.Integrations.Express({ app }),

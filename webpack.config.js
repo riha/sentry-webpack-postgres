@@ -16,6 +16,12 @@ module.exports = {
     new NodemonPlugin(),
   ],
   module: {
+    // According to https://github.com/getsentry/sentry-javascript/issues/3293 this should fix the issue
+    parser: {
+      javascript: {
+        commonjsMagicComments: true,
+      },
+    },
     rules: [
       {
         test: /\.ts$/,
